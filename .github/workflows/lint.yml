@@ -3,11 +3,11 @@ name: Lint Python code
 on:
   pull_request:
     branches:
-      - master
+      - github-actions-tutorial
   
   push:
     branches:
-      - master
+      - github-actions-tutorial
   
   workflow_dispatch:
 
